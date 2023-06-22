@@ -1,0 +1,30 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: brown;
+}
+
+.navbarContainer h3 {
+  font-size: 42px;
+  font-family: Cambria;
+  color: burlywood;
+}
+
+.listContainer {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+}
+
+.listContainer li a {
+  font-size: 20px;
+  font-family: Verdana;
+  color: burlywood;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.listContainer li a:hover {
+  color: aliceblue;
+}
