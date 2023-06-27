@@ -10,6 +10,4 @@
 
 ### Sobre el proyecto
 
-![](https://i.imgur.com/nwHRZJY.png)
-
 > Este proyecto trata sobre un e-commerce, simulando la venta de productos de juegos.
