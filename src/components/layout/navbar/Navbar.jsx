@@ -10,10 +10,19 @@ const Navbar = () => {
           <a href="./index.html">Inicio</a>
         </li>
         <li>
-          <a href="./index.html">Juegos</a>
+          <a href="./index.html">Acción</a>
         </li>
         <li>
-          <a href="./index.html">Contacto</a>
+          <a href="./index.html">Deportes</a>
+        </li>
+        <li>
+          <a href="./index.html">Estrategia</a>
+        </li>
+        <li>
+          <a href="./index.html">Lucha</a>
+        </li>
+        <li>
+          <a href="./index.html">Terror</a>
         </li>
       </ul>
       <CartWidget />
