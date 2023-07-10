@@ -1,4 +1,5 @@
 import {
+  Box,
   Button,
   Card,
   CardActions,
@@ -13,10 +14,17 @@ const ProductCard = ({ item }) => {
     <Card sx={{ width: 350 }}>
       <CardMedia sx={{ height: 200 }} image={item.img} />
       <CardContent>
-        <Typography gutterBottom variant="h6" component="div">
+        <Typography
+          backgroundColor="#b71c1c"
+          color="#f5f5f5"
+          textAlign="center"
+          gutterBottom
+          variant="h6"
+          component="div"
+        >
           {item.title}
         </Typography>
-        <Typography variant="body2" color="DarkBlue">
+        <Typography textAlign="center" variant="body2" color="#212121">
           {item.description}
         </Typography>
       </CardContent>

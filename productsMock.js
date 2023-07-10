@@ -67,7 +67,7 @@ export const products = [
     description:
       "Las nuevas variantes de los personajes te ofrecen un control de tus kombatientes sin precedentes.",
     category: "lucha",
-    img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688944992/ReactEntregasTanans/products/Mortal_Kombat_11.jpg",
+    img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688945091/ReactEntregasTanans/products/Mortal_Kombat_11.jpg",
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ export const products = [
     description:
       "Te presenta a Sullivan Knoth y sus seguidores, quienes dejaron atrás nuestro malvado mundo para dar a luz a Temple Gate, una ciudad en lo profundo de la naturaleza y oculta de la civilización.",
     category: "terror",
-    img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688945247/ReactEntregasTanans/products/Outlast_2_mwceuk.jpg",
+    img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688945247/ReactEntregasTanans/products/Outlast_2.jpg",
   },
   {
     id: 11,
