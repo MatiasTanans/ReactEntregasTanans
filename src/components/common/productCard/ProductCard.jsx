@@ -1,5 +1,4 @@
 import {
-  Box,
   Button,
   Card,
   CardActions,
@@ -8,15 +7,16 @@ import {
   Typography,
 } from "@mui/material";
 import "./ProductCard.css";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ item }) => {
   return (
-    <Card sx={{ width: 350 }}>
+    <Card sx={{ width: 350 }} style={{ backgroundColor: "burlywood" }}>
       <CardMedia sx={{ height: 200 }} image={item.img} />
       <CardContent>
         <Typography
           backgroundColor="#b71c1c"
-          color="#f5f5f5"
+          color="burlywood"
           textAlign="center"
           gutterBottom
           variant="h6"
@@ -28,10 +28,12 @@ const ProductCard = ({ item }) => {
           {item.description}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small" variant="contained">
-          Detalles
-        </Button>
+      <CardActions style={{ justifyContent: "center" }}>
+        <Link to={`/itemDetail/${item.id}`}>
+          <Button size="small" variant="contained">
+            Detalles
+          </Button>
+        </Link>
       </CardActions>
     </Card>
   );
