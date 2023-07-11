@@ -11,12 +11,12 @@ const Navbar = () => {
         </Link>
 
         <ul className="listContainer">
-          <li>Inicio</li>
-          <li>Acción</li>
-          <li>Deportes</li>
-          <li>Estrategia</li>
-          <li>Lucha</li>
-          <li>Terror</li>
+          <Link to="/">Inicio</Link>
+          <Link to="/category/acción">Acción</Link>
+          <Link to="/category/deportes">Deportes</Link>
+          <Link to="/category/estrategia">Estrategia</Link>
+          <Link to="/category/lucha">Lucha</Link>
+          <Link to="/category/terror">Terror</Link>
         </ul>
 
         <CartWidget />
