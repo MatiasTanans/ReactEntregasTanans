@@ -1,0 +1,40 @@
+img {
+  border: none;
+  width: 25%;
+  height: 25%;
+  margin-left: 38%;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  font-family: Cambria;
+  color: red;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Cambria;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.return a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  color: burlywood;
+}
