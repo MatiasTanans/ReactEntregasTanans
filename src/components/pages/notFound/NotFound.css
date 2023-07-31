@@ -1,4 +1,4 @@
-img {
+.imgNotFound {
   border: none;
   width: 25%;
   height: 25%;
@@ -30,11 +30,19 @@ h2 {
   align-items: center;
 }
 
-.return a {
-  text-decoration: none;
-  color: brown;
+.buttonNotFound {
+  font-size: 30px;
+  font-family: Georgia;
+  margin-left: 5px;
+  color: burlywood;
+  background-color: brown;
+  border-color: burlywood;
+  border: solid 2px;
+  cursor: pointer;
 }
 
-a:hover {
-  color: burlywood;
+.buttonNotFound:hover {
+  color: brown;
+  background-color: burlywood;
+  border-color: brown;
 }

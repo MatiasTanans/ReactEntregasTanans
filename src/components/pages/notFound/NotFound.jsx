@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import "./NotFound.css";
 
 const NotFound = () => {
+  let navigate = useNavigate("/");
+
   return (
     <>
       <div className="titleContainer">
@@ -11,6 +14,7 @@ const NotFound = () => {
       </div>
       <div>
         <img
+          className="imgNotFound"
           src="https://res.cloudinary.com/dunwbzf2f/image/upload/v1690749503/ReactEntregasTanans/others/notFound1.gif"
           alt="Gif de perdido."
         />
@@ -18,7 +22,9 @@ const NotFound = () => {
       <div className="textContainer">
         <h2 className="return">
           No te preocupes, puedes volver a nuestro sitio web apretando en
-          <a href=""> StoreGames</a>
+          <button className="buttonNotFound" onClick={() => navigate("/")}>
+            StoreGames
+          </button>
         </h2>
       </div>
     </>

@@ -6,7 +6,7 @@
 }
 
 .navbarContainer h3 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: Cambria;
   color: burlywood;
 }
@@ -14,11 +14,11 @@
 .listContainer {
   display: flex;
   list-style: none;
-  gap: 100px;
+  gap: 50px;
 }
 
 .listContainer a {
-  font-size: 15px;
+  font-size: 20px;
   font-family: Verdana;
   color: burlywood;
   text-decoration: none;
