@@ -22,6 +22,6 @@
 > Utilizamos firestore para crear nuestra base de datos.
 > Firestore es un servicio de Firebase.
 
-### Sobre el proyecto
+## Sobre el proyecto
 
 > Este proyecto trata sobre un e-commerce, simulando la venta de productos de juegos.

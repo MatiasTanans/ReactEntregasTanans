@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import "./Counter.css";
 
 const Counter = ({ counter, setCounter, agregarAlCarrito, stock }) => {
   return (
