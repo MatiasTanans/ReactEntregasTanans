@@ -16,6 +16,7 @@ const Navbar = () => {
         <Link to="/category/estrategia">Estrategia</Link>
         <Link to="/category/lucha">Lucha</Link>
         <Link to="/category/terror">Terror</Link>
+        <Link to="/category/simulación">Simulación</Link>
       </ul>
 
       <CartWidget />

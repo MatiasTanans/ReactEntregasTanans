@@ -4,21 +4,27 @@
   align-items: center;
   border: solid 1px brown;
   margin-top: 0.5px;
+  padding-top: 10px;
   background-color: burlywood;
 }
 
-.title {
+.titleProduct {
   font-size: 40px;
   font-family: Arial;
-  color: brown;
+  border: solid 2px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: brown;
+  background-color: brown;
+  color: burlywood;
   margin: 2px 0 5px 0;
+  padding: 10px;
 }
 
 img {
   width: 400px;
   height: 200px;
   border: solid 2px brown;
-  margin-bottom: 5px;
+  margin: 10px 0 10px 0;
 }
 
 .price {
@@ -31,7 +37,7 @@ img {
 .description {
   font-size: 20px;
   font-family: Arial;
-  margin: 5px 0px 5px 0px;
+  margin: 10px 0px 10px 0px;
   text-align: center;
 }
 

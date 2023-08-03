@@ -14,7 +14,7 @@
 .listContainer {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 30px;
 }
 
 .listContainer a {
