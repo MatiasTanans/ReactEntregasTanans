@@ -1,0 +1,43 @@
+.cartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: burlywood;
+  border: solid 2px brown;
+  width: 35%;
+  margin: 2px;
+}
+
+.cardTitle {
+  font-size: 25px;
+  font-family: Arial;
+  background-color: brown;
+  color: burlywood;
+  border-radius: 20px;
+  padding: 6px;
+  margin: 5px 0 5px 0;
+}
+
+.cardPrice {
+  font-size: 25px;
+  font-family: Arial;
+  color: brown;
+  margin: 2px 0 2px 0;
+}
+
+.cardQuantity {
+  font-size: 15px;
+  font-family: Verdana;
+  background-color: blue;
+  color: burlywood;
+  margin: 5px 0 5px 0;
+  padding: 5px;
+}

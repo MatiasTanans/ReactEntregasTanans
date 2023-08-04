@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
+import { CartContext } from "../../../context/CartContext";
 import { db } from "../../../firebaseConfig";
 import { getDoc, collection, doc } from "firebase/firestore";
 
@@ -8,6 +9,8 @@ const ItemDetailContainer = () => {
   const [product, setProduct] = useState({});
 
   let { id } = useParams();
+
+  const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
     let productCollection = collection(db, "products");
@@ -20,7 +23,8 @@ const ItemDetailContainer = () => {
       ...product,
       quantity: cantidad,
     };
-    console.log(data);
+
+    addToCart(data);
   };
 
   return <ItemDetail product={product} agregarAlCarrito={agregarAlCarrito} />;

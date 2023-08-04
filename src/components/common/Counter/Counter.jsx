@@ -32,7 +32,7 @@ const Counter = ({ counter, setCounter, agregarAlCarrito, stock }) => {
       </div>
       <br />
       <Button variant="contained" onClick={() => agregarAlCarrito(counter)}>
-        <AddShoppingCartIcon />
+        Agregar al Carrito
       </Button>
     </div>
   );
