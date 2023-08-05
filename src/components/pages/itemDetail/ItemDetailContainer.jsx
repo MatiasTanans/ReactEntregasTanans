@@ -10,7 +10,9 @@ const ItemDetailContainer = () => {
 
   let { id } = useParams();
 
-  const { addToCart } = useContext(CartContext);
+  const { addToCart, getQuantityById } = useContext(CartContext);
+
+  let quantityCart = getQuantityById(id);
 
   useEffect(() => {
     let productCollection = collection(db, "products");
@@ -27,7 +29,13 @@ const ItemDetailContainer = () => {
     addToCart(data);
   };
 
-  return <ItemDetail product={product} agregarAlCarrito={agregarAlCarrito} />;
+  return (
+    <ItemDetail
+      product={product}
+      agregarAlCarrito={agregarAlCarrito}
+      quantityCart={quantityCart}
+    />
+  );
 };
 
 export default ItemDetailContainer;

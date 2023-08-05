@@ -3,8 +3,10 @@ import { CartContext } from "../../../context/CartContext";
 import "./Cart.css";
 
 const CartContainer = () => {
-  const { cart, clearCart, deleteById } = useContext(CartContext);
+  const { cart, clearCart, deleteById, getTotalPrice } =
+    useContext(CartContext);
 
+  let totalPrice = getTotalPrice();
   return (
     <div className="cartContainer">
       <h1></h1>
@@ -27,6 +29,8 @@ const CartContainer = () => {
       <button className="buttonReset" onClick={clearCart}>
         Resetear Carrito
       </button>
+      <h2>Total a pagar: $ {totalPrice} </h2>
+      <button>Finalizar compra</button>
     </div>
   );
 };
