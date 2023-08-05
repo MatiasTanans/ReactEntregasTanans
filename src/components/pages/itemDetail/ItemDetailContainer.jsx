@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 import { CartContext } from "../../../context/CartContext";
 import { db } from "../../../firebaseConfig";
 import { getDoc, collection, doc } from "firebase/firestore";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ItemDetailContainer = () => {
   const [product, setProduct] = useState({});
@@ -27,14 +29,27 @@ const ItemDetailContainer = () => {
     };
 
     addToCart(data);
+    toast.success("Producto agregado", {
+      position: "top-center",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
   };
 
   return (
-    <ItemDetail
-      product={product}
-      agregarAlCarrito={agregarAlCarrito}
-      quantityCart={quantityCart}
-    />
+    <>
+      <ItemDetail
+        product={product}
+        agregarAlCarrito={agregarAlCarrito}
+        quantityCart={quantityCart}
+      />
+      <ToastContainer />
+    </>
   );
 };
 

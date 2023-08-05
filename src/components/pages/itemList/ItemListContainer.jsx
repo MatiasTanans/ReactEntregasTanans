@@ -32,7 +32,11 @@ const ItemListContainer = () => {
     });
   }, [categoryName]);
 
-  return <ItemList items={items} />;
+  return (
+    <>
+      <ItemList items={items} />
+    </>
+  );
 };
 
 export default ItemListContainer;
