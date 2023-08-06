@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 62.9vh;
 }
 
 .cardContainer {
@@ -12,8 +13,8 @@
   flex-direction: column;
   background-color: burlywood;
   border: solid 2px brown;
-  width: 35%;
-  margin: 2px;
+  width: 30%;
+  margin: 5px;
 }
 
 .cardTitle {
@@ -48,4 +49,23 @@
   padding: 5px;
   margin: 5px 0 5px 0;
   border-color: brown;
+  cursor: pointer;
+}
+
+.buttonReset {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  border-color: brown;
+  cursor: pointer;
+}
+
+.buttonFinish {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  border-color: white;
+  cursor: pointer;
 }

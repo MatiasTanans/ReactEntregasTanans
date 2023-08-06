@@ -26,10 +26,9 @@ const CartContainer = () => {
   };
 
   let totalPrice = getTotalPrice();
+
   return (
     <div className="cartContainer">
-      <h1></h1>
-
       {cart.map((elemento) => {
         return (
           <div className="cardContainer" key={elemento.id}>
@@ -45,7 +44,6 @@ const CartContainer = () => {
           </div>
         );
       })}
-
       {cart.length > 0 && (
         <>
           <button className="buttonReset" onClick={clear}>
@@ -53,12 +51,12 @@ const CartContainer = () => {
           </button>
 
           <Link to="/checkout">
-            <button>Finalizar compra</button>
+            <button className="buttonFinish">Finalizar compra</button>
           </Link>
+
+          <h2>Total a pagar: $ {totalPrice} </h2>
         </>
       )}
-
-      <h2>Total a pagar: $ {totalPrice} </h2>
     </div>
   );
 };
