@@ -20,12 +20,6 @@ const Navbar = () => {
         <Link to="/category/simulación">Simulación</Link>
       </ul>
 
-      <Link to="dashboard">
-        <Button variant="contained" size="small">
-          Admin
-        </Button>
-      </Link>
-
       <CartWidget />
     </div>
   );
