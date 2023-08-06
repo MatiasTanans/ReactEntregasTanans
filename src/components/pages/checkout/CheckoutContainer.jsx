@@ -8,7 +8,8 @@ import {
   updateDoc,
   doc,
 } from "firebase/firestore";
-import { Button, Input } from "@mui/material";
+import { Input } from "@mui/material";
+import "./Checkout.css";
 
 const CheckoutContainer = () => {
   const { cart, getTotalPrice } = useContext(CartContext);
@@ -51,9 +52,7 @@ const CheckoutContainer = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario</h1>
-
+    <div className="formContainer">
       {!orderId ? (
         <form onSubmit={handleSubmit}>
           <Input
@@ -75,12 +74,14 @@ const CheckoutContainer = () => {
             name="email"
             onChange={handleChange}
           />
-          <Button variant="contained" size="medium" type="submit">
-            Comprar
-          </Button>
+          <button className="buttonBuy">Comprar</button>
         </form>
       ) : (
-        <h3> Número de comprobante: {orderId}</h3>
+        <h3 className="comprobante">
+          {" "}
+          Número de comprobante: {orderId} <br />
+          Por favor, guarde su ID para cualquier reclamo.
+        </h3>
       )}
     </div>
   );
