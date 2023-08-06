@@ -1,6 +1,5 @@
 export const products = [
   {
-    id: 1,
     title: "Grand Theft Auto V",
     price: 3800,
     stock: 6,
@@ -10,7 +9,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688944228/ReactEntregasTanans/products/Grand_Theft_Auto_V.png",
   },
   {
-    id: 2,
     title: "Diablo IV",
     price: 6500,
     stock: 10,
@@ -20,7 +18,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688943978/ReactEntregasTanans/products/Diablo_IV.jpg",
   },
   {
-    id: 3,
     title: "FIFA 23",
     price: 9000,
     stock: 12,
@@ -30,7 +27,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688944063/ReactEntregasTanans/products/FIFA_23.jpg",
   },
   {
-    id: 4,
     title: "F1 Manager 2023",
     price: 3700,
     stock: 5,
@@ -40,7 +36,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688944371/ReactEntregasTanans/products/FI_Manager_2023.jpg",
   },
   {
-    id: 5,
     title: "Civilization VI",
     price: 900,
     stock: 15,
@@ -50,7 +45,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688944462/ReactEntregasTanans/products/Civilization_VI.jpg",
   },
   {
-    id: 6,
     title: "Warcraft III: Reign of Chaos",
     price: 1200,
     stock: 10,
@@ -60,7 +54,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688944694/ReactEntregasTanans/products/Warcraft_III_-_Reign_of_Chaos.jpg",
   },
   {
-    id: 7,
     title: "Mortal Kombat 11",
     price: 4000,
     stock: 4,
@@ -70,7 +63,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688945091/ReactEntregasTanans/products/Mortal_Kombat_11.jpg",
   },
   {
-    id: 8,
     title: "Dragon Ball FighterZ",
     price: 3100,
     stock: 7,
@@ -80,7 +72,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688945161/ReactEntregasTanans/products/Dragon_Ball_FighterZ.jpg",
   },
   {
-    id: 9,
     title: "Five Nights at Freddy's",
     price: 130,
     stock: 18,
@@ -90,7 +81,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688943814/ReactEntregasTanans/products/Five_Nights_at_Freddy_s.jpg",
   },
   {
-    id: 10,
     title: "Outlast 2",
     price: 2100,
     stock: 9,
@@ -100,7 +90,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688945247/ReactEntregasTanans/products/Outlast_2.jpg",
   },
   {
-    id: 11,
     title: "Undertale",
     price: 250,
     stock: 15,
@@ -110,7 +99,6 @@ export const products = [
     img: "https://res.cloudinary.com/dunwbzf2f/image/upload/v1688943068/ReactEntregasTanans/products/Undertale.png",
   },
   {
-    id: 12,
     title: "Project Zomboid",
     price: 1400,
     stock: 6,

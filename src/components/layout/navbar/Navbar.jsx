@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import CartWidget from "../../common/cartWidget/CartWidget";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
@@ -18,6 +19,12 @@ const Navbar = () => {
         <Link to="/category/terror">Terror</Link>
         <Link to="/category/simulación">Simulación</Link>
       </ul>
+
+      <Link to="dashboard">
+        <Button variant="contained" size="small">
+          Admin
+        </Button>
+      </Link>
 
       <CartWidget />
     </div>
